@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BricoTodo tu centro de Bricolaje</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* Imagen de fondo que ocupa toda la página */
+            background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1920&q=80'); 
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif; /* Párrafos y listas en Arial */
+            margin: 40px;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 50px;
+            color: #D2691E;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Caveat', cursive;
+            font-size: 30px;
+            color: #00008B;
+        }
+
+        h3 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            color: #008B8B;
+        }
+
+        /* Estilo de los enlaces */
+        a { text-decoration: none; }
+        a:visited { color: gray; }
+        a:hover { font-weight: bold; color: red; }
+        a:active { color: green; }
+
+        /* Estilo de la tabla */
+        table {
+            width: 33%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: AntiqueWhite;
+            border: 1px solid brown;
+        }
+
+        table th, table td {
+            border: 1px solid brown;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .lorem-text {
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Centro de Bricolaje "Brico ToDo"</h1>
+    <h2>Bienvenidos al lugar donde se hacen realidad tus sueños</h2>
+
+    <section>
+        <h3>Inicio</h3>
+        <ol>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Qué hacemos</a></li>
+            <li><a href="formulario.html">Solicita información</a></li>
+            <li><a href="#">Escríbenos</a></li>
+        </ol>
+    </section>
+
+    <section class="lorem-text">
+        <h3>Quienes somos</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+
+    <section>
+        <h3>Qué hacemos</h3>
+        <ul>
+            <li>Tableros y muebles</li>
+            <li>Herramientas</li>
+            <li>Pintura</li>
+            <li>Cortinas</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Nuestras Sedes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Población</th>
+                    <th>Dirección</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alcázar de San Juan</td>
+                    <td>Norte, 4</td>
+                </tr>
+                <tr>
+                    <td>Tomelloso</td>
+                    <td>Sur, 8</td>
+                </tr>
+                <tr>
+                    <td>Manzanares</td>
+                    <td>Real, 9</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
